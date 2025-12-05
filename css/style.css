@@ -1,0 +1,285 @@
+/* css variabler - kun farver, typografi og font-weights */
+
+
+:root {
+    /* Farver */
+    --primary-color: white;
+    --secondary-color: #88683C;
+
+    /* Typografi  */
+        --font-family:Oswald;
+        --font-size-xl: 24px;
+        --font-size-xxl: 28px;
+
+    /* Font weights */
+        --font-weight-medium: 500;
+        --font-weight-semibold: 600;    
+}
+
+
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Oswald;
+}
+
+/* Body content */
+body {
+   background-color: #f0e3c4; 
+}
+
+
+/* Navigations bar */
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav {
+    position: relative;
+    height:500px;
+}
+
+.video-container video {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    height: 100%;
+}
+
+
+/* Logo */
+.logo img {
+    width: 150px;
+    padding-right: 60px;
+}
+
+
+/* Teksten foran højtaleren "Lumina 1, tag den med dig overalt" etc. */
+.hero-tekst {
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   font-size: var(--font-size-xl);
+   padding-top: 50px;
+}
+
+.hero-tekst figure {
+    padding-top: 10px;
+}
+
+
+
+/* Bobbel ikonerne og tekst */
+.ikon-content-top {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.ikon-content-top figcaption {
+    text-align: center;
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-xl);
+    color: var(--secondary-color);
+}
+
+.ikon-content-bottom {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ikon-content-bottom figcaption {
+    text-align: center;
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-xl);
+    color: var(--secondary-color);
+    padding-bottom: 50px;
+}
+
+
+/* Trustpilot sektionen */
+.trust-pilot-logo {
+    text-align: center; 
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.trust-pilot-stjerner {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.trust-pilot-tekst {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: 3px;
+    padding-bottom: 100px;
+}
+
+
+/* 3d model og totebag sektion */
+.model-tote-tekst-op {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+    font-size: var(--font-size-xxl);
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: var(--secondary-color);
+}
+
+.model-tote-tekst-ned {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    padding: 10px;
+    font-size: var(--font-size-xxl);
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: var(--secondary-color);
+}
+
+.model-og-tote {
+    display: flex;
+    justify-content: space-around;    
+}
+
+.model-og-tote video {
+    width: 600px;
+}
+
+.model-og-tote img {
+    width: 250px;
+    display: flex;
+}
+
+
+/* Linjerne på siden */
+hr {
+    color: #88683C;
+    background-color: #88683C;
+    height: 2px;
+    border: none;
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Højtalere i forskellige farver sektion*/
+.dusty-rose-sage-green {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.dusty-rose-sage-green img {
+    width: 150px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.dusty-rose-sage-green-tekst {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: var(--secondary-color);
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.misty-white-lavender-mist {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.misty-white-lavender-mist img {
+    width: 150px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.misty-white-lavender-mist-tekst {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 70px ;
+    color: var(--secondary-color);
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+/* Social connect button */
+.app-button-og-tekst {
+    text-align: center;
+    padding: 50px;
+}
+
+.app-button-og-tekst p {
+    color: var(--secondary-color);
+    letter-spacing: 3px;
+}
+
+
+/* Footer sektion */
+footer {
+    background: var(--secondary-color);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-tekst {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--primary-color);
+}
+
+.footer-tekst a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.figure-insta-face-ikoner {
+    display: flex;
+    align-items:center;
+    text-align:center;
+    flex-direction: column;
+}
+
+.figure-sikker-betaling-ikon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.figure-hurtig-levering-ikon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
