@@ -47,9 +47,7 @@ body {
     height: 100%;
 }
 
-.hero-speaker-btn {
-    display: block;
-    margin: 20px auto;    
+.hero-speaker-btn {  
     border-radius: 20px;
     width: 100px;
     height: 40px;
@@ -66,8 +64,6 @@ body {
 /* Teksten foran højtaleren "Lumina 1, tag den med dig overalt" etc. */
 .hero-tekst {
     color: var(--primary-color);
-    display: flex;
-    flex-direction: column;
     text-align: center;
     padding-top: 50px;
     font-size: 40px;
