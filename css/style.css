@@ -11,6 +11,7 @@
         --font-size-xl: 24px;
         --font-size-xxl: 28px;
 
+
     /* Font weights */
         --font-weight-medium: 500;
         --font-weight-semibold: 600;    
@@ -46,6 +47,9 @@ nav {
     height:500px;
 }
 
+/* Hero sektion - tekst, knapper, trustpilot */
+
+
 .video-container video {
     position: absolute;
     width: 100%;
@@ -70,6 +74,18 @@ nav {
    text-align: center;
    font-size: var(--font-size-xl);
    padding-top: 50px;
+}
+
+/* Lumina 1 heading */
+/* LUMINA HEADING hero sektion */
+.hero-speaker-tekst {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Hero sektion nummer 1 LUMINA Hero sektion SPAN */
+.hero-number-lumina {
+font-family: 'Playfair Display', serif;
+font-size: 100px;
 }
 
 .hero-tekst figure {
