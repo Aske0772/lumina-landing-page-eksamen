@@ -87,18 +87,18 @@ body {
 
 
 /* Navigations bar */
-.navbar-content {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
 
 nav {
-    position: relative;
-    height:500px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
+/* Hamburger menu ikon */
 .hamburger {
+    /* gør at parent og child bliver flex - spans kan sættes i column */
     display:flex;
     flex-direction: column;
     gap: 4px;
@@ -106,11 +106,16 @@ nav {
 
 }
 
+ /* hamburger menu */
 .hamburger span {
     width: 25px;
     height: 3px;
     background-color: var(--primary-color);
-    display: block;
+}
+
+#menu-bar {
+    /* checkbox vises ikke */
+    display: none;
 }
 
 
