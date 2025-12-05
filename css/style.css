@@ -98,6 +98,21 @@ nav {
     height:500px;
 }
 
+.hamburger {
+    display:flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-color);
+    display: block;
+}
+
 
 
 
