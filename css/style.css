@@ -7,9 +7,9 @@
     --secondary-color: #88683C;
 
     /* Typografi  */
-        --font-family:Oswald;
         --font-size-xl: 24px;
         --font-size-xxl: 28px;
+        --font-family-playfair: 'Playfair Display', serif;
 
 
     /* Font weights */
@@ -26,7 +26,7 @@
 }
 
 * {
-    font-family: Oswald;
+    font-family: var(--font-family-playfair);
 }
 
 /* Body content */
@@ -71,15 +71,17 @@ nav {
     color: var(--primary-color);
     display: flex;
     flex-direction: column;
-   text-align: center;
-   font-size: var(--font-size-xl);
-   padding-top: 50px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: var(--font-family-playfair);
 }
 
 /* Lumina 1 heading */
 /* LUMINA HEADING hero sektion */
 .hero-speaker-tekst {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-family-playfair);
     font-size: 80px;
     letter-spacing: 10px; 
 }
