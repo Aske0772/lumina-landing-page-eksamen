@@ -10,6 +10,7 @@
         --font-size-xl: 24px;
         --font-size-xxl: 28px;
         --font-family-playfair: 'Playfair Display', serif;
+        --font-family-oswald: 'Oswald', sans-serif;
 
 
     /* Font weights */
@@ -25,14 +26,18 @@
     box-sizing: border-box;
 }
 
-* {
+h1,h2, h3, h4, h5, h6 {
     font-family: var(--font-family-playfair);
 }
 
 /* Body content */
 body {
-   background-color: #f0e3c4; 
+   background-color: #f0e3c4;
+   font-family: var(--font-family-oswald); 
 }
+
+
+
 
 
 /* Navigations bar */
@@ -81,14 +86,13 @@ nav {
 /* Lumina 1 heading */
 /* LUMINA HEADING hero sektion */
 .hero-speaker-tekst {
-    font-family: var(--font-family-playfair);
     font-size: 80px;
     letter-spacing: 10px; 
 }
 
 /* Hero sektion nummer 1 LUMINA Hero sektion SPAN */
 .hero-number-lumina {
-font-family: 'Playfair Display', serif;
+font-family: var(--font-family-playfair);
 font-size: 100px;
 }
 
