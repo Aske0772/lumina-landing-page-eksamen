@@ -80,6 +80,8 @@ nav {
 /* LUMINA HEADING hero sektion */
 .hero-speaker-tekst {
     font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    letter-spacing: 10px; 
 }
 
 /* Hero sektion nummer 1 LUMINA Hero sektion SPAN */
