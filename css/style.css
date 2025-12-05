@@ -36,22 +36,6 @@ body {
    font-family: var(--font-family-oswald); 
 }
 
-
-
-
-
-/* Navigations bar */
-.navbar-content {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-nav {
-    position: relative;
-    height:500px;
-}
-
 /* Hero sektion - tekst, knapper, trustpilot */
 
 
@@ -87,18 +71,28 @@ nav {
 /* LUMINA HEADING hero sektion */
 .hero-speaker-tekst {
     font-size: 80px;
-    letter-spacing: 10px; 
+    letter-spacing: 10px;
 }
 
 /* Hero sektion nummer 1 LUMINA Hero sektion SPAN */
 .hero-number-lumina {
-font-family: var(--font-family-playfair);
-font-size: 100px;
+    font-family: var(--font-family-playfair);
+    font-size: 100px;
 }
 
-.hero-tekst figure {
-    padding-top: 10px;
+/* Navigations bar */
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
+
+nav {
+    position: relative;
+    height:500px;
+}
+
+
 
 
 
