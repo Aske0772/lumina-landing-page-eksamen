@@ -5,6 +5,7 @@
     /* Farver */
     --primary-color: white;
     --secondary-color: #88683C;
+    --rectangle-color: #ECC5A2;
 
     /* Typografi  */
         --font-size-xl: 24px;
@@ -336,4 +337,11 @@ footer {
     align-items: center;
     text-align: center;
     flex-direction: column;
+}
+
+
+.bg-rectangle {
+    background-color: var(--rectangle-color);
+    border-radius: 15px;
+    padding: 20px;
 }
