@@ -13,9 +13,11 @@
 ## card-holder højtaler skifter billede
 1. class colour btn lavet først til at style alle buttons.
 2. class buttons lavet hver for sig til at style individuelt.
-3. hover og focus(klik) added til buttons
+3. "hover" og "active" (klik) added til buttons.
 
 
 # JavaScript
-1. brugt funktion der tager fat i src og textcontent til at ændre figure og figcaption inde i rektangle placeholder.
+
+1. brugt funktion der tager fat i src, textcontent og selve knappen til at ændre "figure" og "figcaption" og "button" inde i rektangle placeholder.
 2. 
+3.

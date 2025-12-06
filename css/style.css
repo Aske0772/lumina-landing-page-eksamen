@@ -348,33 +348,52 @@ footer {
 }
 
 .bg-rectangle-small {
+    /* flexbox */
+    display: flex;
+    /* placerer figure og figcaption i center af placeholder */
+    justify-content: center;
+    /* placerer btn's i center af placeholder */
+    align-items: center;
+    /* alt sættes i kolonne */
+    flex-direction: column;
     background-color: var(--rectangle-color);
-    border-radius: 15px;
+    /* placeholder stats */
+    border-radius: 30px;
     width: 622px;
     height: 739px;
     padding: 10px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* resetter margin */
+    /* placeholder i midten af skærm */
+    margin: auto;
     font-size: 1.5vw;
 }
 
+
+/* Centrerer image i container med forskellige højtalerer */
 .product-image img {
-    display: block;
-    max-width: 50%;
-    height: 50%;
-    margin: 0 auto;
-    /* Centers image */
+    /* % brugt til bedre responsiv hjemmeside */
+    max-width: 40%;
+    /* mister ikke proportionerne */
+    height: auto;
+    font-family: var(--font-family-playfair); 
+}
+
+.product-image {
+    /* centerer figure og figcaption i center af container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:var(--secondary-color);
+    /* højtaler scales når man hover over placeholder box */
+    transition: 0.3s ease-in-out;
 }
 
 /* Buttons */
 
 .colour-btn {
-    width:100px;
+    width: 50px;
     height: 50px;
+    flex-direction: row;
     border-radius: 50%;
     margin: 10px;
     border: var(--secondary-color) 1px solid;
@@ -397,17 +416,29 @@ footer {
     background-color: #EFD1C7;
 }
 
-.colour-btn:focus, .colour-btn:hover {
+
+
+
+
+/* TRANSITIONS */
+
+/* højtaler scales når man hover over placeholder box */
+.product-image:hover {
+    transform: scale(1.02);
+}
+
+.colour-btn.active {
+    /* stroke tilføjes og lidt større */
+    border: 3px solid var(--secondary-color);
+    transform: scale(1.2);
+}
+
+
+.colour-btn:hover {
     /* Tykkere border når clicked */
     border-width: 3px;
     /* Lidt større */
     transform: scale(1.2);
 }
-
-.colour-btn.active {
-    border: 3px solid var(--secondary-color);
-    transform: scale(1.2);
-}
-
 
 

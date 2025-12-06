@@ -19,7 +19,8 @@ function btnColourChange(image, name, clickedButton) {
 }
 
 
-// når man trykker på knapperne tager bruger den funktion som siger at den skal ændre src og text content
+// når man trykker på knapperne tager bruger den funktion som siger at den skal ændre src, text content, og button style
+// this er tilføjet for at kunne referere til den knap der blev klikket på
 document.querySelector('.misty-white-btn').addEventListener('click', function () {
     btnColourChange('img/speakers/misty-white-transparent.png', 'Misty White', this);
 });
