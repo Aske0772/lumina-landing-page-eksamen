@@ -13,6 +13,7 @@
 ## card-holder højtaler skifter billede
 1. class colour btn lavet først til at style alle buttons.
 2. class buttons lavet hver for sig til at style individuelt.
+3. hover og focus(klik) added til buttons
 
 
 # JavaScript

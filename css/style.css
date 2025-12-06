@@ -378,6 +378,7 @@ footer {
     border-radius: 50%;
     margin: 10px;
     border: var(--secondary-color) 1px solid;
+    transition: all 0.1s ease;
 }
 
 .misty-white-btn {
@@ -394,6 +395,18 @@ footer {
 
 .dusty-rose-btn {
     background-color: #EFD1C7;
+}
+
+.colour-btn:focus, .colour-btn:hover {
+    /* Tykkere border når clicked */
+    border-width: 3px;
+    /* Lidt større */
+    transform: scale(1.2);
+}
+
+.colour-btn.active {
+    border: 3px solid var(--secondary-color);
+    transform: scale(1.2);
 }
 
 
