@@ -36,6 +36,40 @@ body {
    font-family: var(--font-family-oswald); 
 }
 
+/* Navigations bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Hamburger menu ikon */
+.hamburger {
+    /* gør at parent og child bliver flex - spans kan sættes i column */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+
+}
+
+/* hamburger menu */
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+#menu-bar {
+    /* checkbox vises ikke */
+    display: none;
+}
+
+/* _________________________________________________________________________ */
+
 /* Hero sektion - tekst, knapper, trustpilot */
 
 /* hero video */
@@ -68,7 +102,7 @@ body {
     padding-top: 50px;
     font-size: 40px;
     font-weight: bold;
-    font-family: var(--font-family-playfair);
+        font-family: var(--font-family-playfair);
 }
 
 /* Lumina 1 heading */
@@ -84,39 +118,15 @@ body {
     font-size: 100px;
 }
 
-
-
-/* Navigations bar */
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    width: 100%;
+.trustpilot-hero {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight:500;
 }
 
-/* Hamburger menu ikon */
-.hamburger {
-    /* gør at parent og child bliver flex - spans kan sættes i column */
-    display:flex;
-    flex-direction: column;
-    gap: 4px;
-    cursor: pointer;
 
-}
 
- /* hamburger menu */
-.hamburger span {
-    width: 25px;
-    height: 3px;
-    background-color: var(--primary-color);
-}
 
-#menu-bar {
-    /* checkbox vises ikke */
-    display: none;
-}
 
 
 
