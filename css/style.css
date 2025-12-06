@@ -8,15 +8,15 @@
     --rectangle-color: #ECC5A2;
 
     /* Typografi  */
-        --font-size-xl: 24px;
-        --font-size-xxl: 28px;
-        --font-family-playfair: 'Playfair Display', serif;
-        --font-family-oswald: 'Oswald', sans-serif;
+    --font-size-xl: 24px;
+    --font-size-xxl: 28px;
+    --font-family-playfair: 'Playfair Display', serif;
+    --font-family-oswald: 'Oswald', sans-serif;
 
 
     /* Font weights */
-        --font-weight-medium: 500;
-        --font-weight-semibold: 600;    
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
 }
 
 
@@ -27,14 +27,19 @@
     box-sizing: border-box;
 }
 
-h1,h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-playfair);
 }
 
 /* Body content */
 body {
-   background-color: #f0e3c4;
-   font-family: var(--font-family-oswald); 
+    background-color: #f0e3c4;
+    font-family: var(--font-family-oswald);
 }
 
 /* Navigations bar */
@@ -82,7 +87,7 @@ nav {
     height: 100%;
 }
 
-.hero-speaker-btn {  
+.hero-speaker-btn {
     border-radius: 20px;
     width: 100px;
     height: 40px;
@@ -103,7 +108,7 @@ nav {
     padding-top: 50px;
     font-size: 40px;
     font-weight: bold;
-        font-family: var(--font-family-playfair);
+    font-family: var(--font-family-playfair);
 }
 
 /* Lumina 1 heading */
@@ -122,7 +127,7 @@ nav {
 .trustpilot-hero {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    font-weight:500;
+    font-weight: 500;
 }
 
 
@@ -166,7 +171,7 @@ nav {
 
 /* Trustpilot sektionen */
 .trust-pilot-logo {
-    text-align: center; 
+    text-align: center;
     padding: 20px;
     padding-top: 40px;
 }
@@ -204,7 +209,7 @@ nav {
 .model-tote-tekst-ned {
     display: flex;
     flex-direction: column;
-    text-align:center;
+    text-align: center;
     padding: 10px;
     font-size: var(--font-size-xxl);
     font-weight: 100;
@@ -214,7 +219,7 @@ nav {
 
 .model-og-tote {
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
 .model-og-tote video {
@@ -280,7 +285,7 @@ hr {
     justify-content: space-around;
     padding-left: 300px;
     padding-right: 300px;
-    padding-bottom: 70px ;
+    padding-bottom: 70px;
     color: var(--secondary-color);
     text-align: center;
     letter-spacing: 3px;
@@ -320,8 +325,8 @@ footer {
 
 .figure-insta-face-ikoner {
     display: flex;
-    align-items:center;
-    text-align:center;
+    align-items: center;
+    text-align: center;
     flex-direction: column;
 }
 
@@ -374,7 +379,7 @@ footer {
     max-width: 40%;
     /* mister ikke proportionerne */
     height: auto;
-    font-family: var(--font-family-playfair); 
+    font-family: var(--font-family-playfair);
 }
 
 .product-image {
@@ -383,7 +388,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color:var(--secondary-color);
+    color: var(--secondary-color);
     /* højtaler scales når man hover over placeholder box */
     transition: 0.3s ease-in-out;
 }
