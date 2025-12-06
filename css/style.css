@@ -339,9 +339,43 @@ footer {
     flex-direction: column;
 }
 
-
+/* RECTANGLE PLACEHOLDER */
 .bg-rectangle {
     background-color: var(--rectangle-color);
     border-radius: 15px;
     padding: 20px;
+    margin: 50px auto;
+}
+
+.bg-rectangle-small {
+    background-color: var(--rectangle-color);
+    border-radius: 15px;
+    width: 622px;
+    height: 739px;
+    padding: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* resetter margin */
+    font-size: 1.5vw;
+}
+
+.misty-white img {
+    display: block;
+    max-width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    /* Centers image */
+}
+
+/* Buttons */
+
+.colour-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:3px solid var(--secondary-color);
+    margin: 10px;
 }
