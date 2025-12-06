@@ -372,6 +372,28 @@ footer {
     font-size: 1.5vw;
 }
 
+.bg-rectangle-long {
+    /* flexbox */
+    display: flex;
+    /* placerer figure og figcaption i center af placeholder */
+    justify-content: center;
+    /* placerer btn's i center af placeholder */
+    align-items: center;
+    /* alt sættes i kolonne */
+    flex-direction: column;
+    background-color: var(--rectangle-color);
+    /* placeholder stats */
+    border-radius: 30px;
+    width: 1143px;
+    height: 518px;
+    padding: 10px;
+    /* placeholder i midten af skærm */
+    margin: auto;
+    font-size: 1.5vw;
+}
+/* _________________________________________________ */
+
+/* SECTION 1 scale */
 
 /* Centrerer image i container med forskellige højtalerer */
 .product-image img {
@@ -442,6 +464,20 @@ footer {
     border-width: 3px;
     /* Lidt større */
     transform: scale(1.2);
+}
+
+/* _________________________________________________________ */
+
+/* SECTION 2 - round image box */
+
+
+.round-image-figure img {
+    /* Fylder max sin container */
+    max-width: 17%;
+    /* Bevarer proportioner */
+    height: auto;
+    /* Hvis du vil have runde hjørner */
+    border-radius: 50%;
 }
 
 
