@@ -61,3 +61,28 @@ circularGallery.forEach(function(img) {
     });
 });
 
+// SEKTION 5
+
+// variabel til trust pilot container
+const trustPilotContainer = document.querySelector('.bg-rectangle-section-trustpilot');
+
+// backticks for at kunne lave flere strings på en gang
+// funktion til at lave trust pilot rectangles
+function trustPilotRectangle(imageSrc, starsSrc, review, author) {
+    return `
+    <article class="trust-pilot-rectangle">
+        <img src="${imageSrc}" alt="Trustpilot Rating">
+        <img src="${starsSrc}" alt="5 Stjerner truspilot rating">
+        <h4>${review}</h4>
+        <h5>${author}</h5>
+    </article>
+    `;
+}
+
+// indsætter rectangles i trust pilot container
+trustPilotContainer.innerHTML += trustPilotRectangle(
+    'img',
+    'img/trustpilot/5-stjerner.png',
+    'Helt ærligt. Fantastisk produkt til pengene. Købte den mest pga. af designet så blev faktisk overrasket af lydkvaliteten.',
+    'Louise P.'
+);

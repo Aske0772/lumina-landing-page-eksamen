@@ -520,7 +520,7 @@ footer {
 
 /* SECTION 4 */
 
-.section-four-social-connect {
+.section-three-social-connect {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -544,13 +544,24 @@ footer {
     align-items: center;
     font-size: 1rem;
     color: var(--secondary-color);
+    flex-direction: column;
 }
 
 
 .bg-rectangle-social-connect video {
     max-width: 90%;
     border-radius: 20px;
+    margin-bottom: 16px;
 }
+
+/* SECTION 4 */
+
+.trust-pilot-rectangle {
+    width: 200px;
+    height: 400px;
+}
+
+
 
 
 
