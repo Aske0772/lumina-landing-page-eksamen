@@ -564,12 +564,12 @@ footer {
 
 .section-four {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 80px;
     font-size: 1rem;
     max-width: 100%;
     min-width: 100%;
-    overflow: hidden;
+    align-items: center;
 }
 
 
@@ -578,9 +578,11 @@ footer {
     display:flex;
     flex-direction: column;
     background-color: var(--rectangle-color);
-    max-width: 300px;
-    max-height: 300px;
+    max-height: 400px;
+    width: 300px;
     margin: 32px;
+    padding: 16px;;
+    border-radius: 20px;
 }
 
 .bg-rectangle-section-trustpilot {
@@ -591,16 +593,21 @@ footer {
 .trust-pilot-logo {
     width: 200px;
     height: 100px;
-
+    margin: 0 auto;
 }
 
 .image-trustpilot {
-width: 100px;
-border-radius: 50%;
+    width: 100px;
+    border-radius: 50%;
+    /* display block for centering - inline kunne ikke center pga. tekst */
+    display: block;
+    margin: 0 auto;
 }
 
 .stars-trustpilot {
     width: 100px;
+    display: block;
+    margin: 0 auto;
 }
 
 .review-trustpilot {
