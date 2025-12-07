@@ -559,8 +559,38 @@ footer {
 .trust-pilot-rectangle {
     width: 200px;
     height: 400px;
+    border: 20px;
 }
 
+.section-four {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    font-size: 1rem;
+    max-width: 100%;
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.section-four img {
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50px;
+}
+
+.section-four article {
+    display:flex;
+    flex-direction: column;
+    background-color: var(--rectangle-color);
+    max-width: 300px;
+    max-height: 500px;
+    margin: 32px;
+}
+
+.bg-rectangle-section-trustpilot {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
