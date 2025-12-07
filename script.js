@@ -71,12 +71,12 @@ const trustPilotContainer = document.querySelector('.bg-rectangle-section-trustp
 function trustPilotRectangle(imageSrc, starsSrc, review, author, speaker, purchased) {
     return `
     <article class="trust-pilot-rectangle">
-        <img src="${imageSrc}" alt="Trustpilot Rating">
-        <img src="${starsSrc}" alt="5 Stjerner truspilot rating">
-        <p>${review}</p>
-        <p>${author}</p>
-        <p>${speaker}</p>
-        <p>${purchased}</p>
+        <img class="image-trustpilot" src="${imageSrc}" alt="Trustpilot Rating">
+        <img class="stars-trustpilot" src="${starsSrc}" alt="5 Stjerner truspilot rating">
+        <p class="review-trustpilot">${review}</p>
+        <p class="author-trustpilot">${author}</p>
+        <p class="speaker-trustpilot">${speaker}</p>
+        <p class="purchased-trustpilot">${purchased}</p>
     </article>
     `;
 }

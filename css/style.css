@@ -572,18 +572,14 @@ footer {
     overflow: hidden;
 }
 
-.section-four img {
-    max-width: 40px;
-    max-height: 40px;
-    border-radius: 50px;
-}
+
 
 .section-four article {
     display:flex;
     flex-direction: column;
     background-color: var(--rectangle-color);
     max-width: 300px;
-    max-height: 500px;
+    max-height: 300px;
     margin: 32px;
 }
 
@@ -591,6 +587,33 @@ footer {
     display: flex;
     flex-direction: row;
 }
+
+.trust-pilot-logo {
+    width: 200px;
+    height: 100px;
+
+}
+
+.image-trustpilot {
+width: 100px;
+border-radius: 50%;
+}
+
+.stars-trustpilot {
+    width: 100px;
+}
+
+.review-trustpilot {
+    font-size: 1rem;
+}
+
+.author-trustpilot, .speaker-trustpilot, .purchased-trustpilot{
+    font-size: 0.8rem;
+    font-weight: lighter;
+    margin-top: 8px;
+    color: grey;
+}
+
 
 
 
