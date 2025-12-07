@@ -369,7 +369,8 @@ footer {
     padding: 10px;
     /* placeholder i midten af skærm */
     margin: auto;
-    font-size: 1.5vw;
+    font-size: 3rem;
+    z-index: 999;
 }
 
 .bg-rectangle-long {
@@ -384,11 +385,13 @@ footer {
     height: 518px;
     padding: 32px 32px 32px 32px;
     /* placeholder i midten af skærm */
-    margin: auto;
+    margin: 0 auto;
     /* text */
     text-align: center;
     font-size: 1rem;
     color: var(--secondary-color);
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 /* SECTION 1 */
@@ -482,7 +485,7 @@ footer {
     /* Bevarer proportioner */
     border-radius: 50%;
     border: 2px solid var(--secondary-color);
-    margin: 40px;
+    margin: 16px;
 }
 
 
