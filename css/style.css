@@ -383,8 +383,7 @@ footer {
 }
 /* _________________________________________________ */
 
-/* SECTION 2 scale */
-
+/* SECTION 2 */
 /* Centrerer image i container med forskellige højtalerer */
 .product-image img {
     /* % brugt til bedre responsiv hjemmeside */
@@ -484,6 +483,24 @@ footer {
     margin: 32px;
     width: 100%;
 }
+
+/* SECTION 4 */
+
+.bg-rectangle-social-connect
+{
+    background-color: var(--rectangle-color);
+    border-radius: 30px;
+    width: 90%;  /* Responsive */
+    max-width: 1143px;  /* Max width */
+    min-height: 529px;  /* Min height, grows with content */
+    padding: 32px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+
 
 
 
