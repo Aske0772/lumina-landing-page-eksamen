@@ -391,9 +391,16 @@ footer {
     margin: auto;
     font-size: 1.5vw;
 }
+
+/* SECTION 1 */
+
+/* trustpilot svg */
+.trust-pilot-stars-five {
+    width: 10vh;
+}
 /* _________________________________________________ */
 
-/* SECTION 1 scale */
+/* SECTION 2 scale */
 
 /* Centrerer image i container med forskellige højtalerer */
 .product-image img {
@@ -468,7 +475,7 @@ footer {
 
 /* _________________________________________________________ */
 
-/* SECTION 2 - round image box */
+/* SECTION 3 - round image box */
 
 
 .round-image-figure img {
