@@ -27,13 +27,9 @@
     box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2, h3, h4, h5, h6 {
     font-family: var(--font-family-playfair);
+    color: var(--secondary-color);
 }
 
 /* Body content */
@@ -500,6 +496,11 @@ footer {
     color: var(--secondary-color);
 }
 
+
+.bg-rectangle-social-connect video {
+    max-width: 90%;
+    border-radius: 20px;
+}
 
 
 
