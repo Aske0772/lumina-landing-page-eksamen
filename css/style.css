@@ -20,7 +20,7 @@
 }
 
 
-/* Reset style */
+/* Global Reset style */
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +36,7 @@ h2, h3, h4, h5, h6 {
 body {
     background-color: #f0e3c4;
     font-family: var(--font-family-oswald);
+    overflow-x: hidden;
 }
 
 
@@ -570,6 +571,7 @@ footer {
     max-width: 100%;
     min-width: 100%;
     align-items: center;
+    overflow: hidden;
 }
 
 
@@ -588,6 +590,17 @@ footer {
 .bg-rectangle-section-trustpilot {
     display: flex;
     flex-direction: row;
+    animation: ArticleSectionScroll 30s linear infinite;
+}
+
+@keyframes ArticleSectionScroll {
+0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 .trust-pilot-logo {
@@ -620,6 +633,8 @@ footer {
     margin-top: 8px;
     color: grey;
 }
+
+
 
 
 

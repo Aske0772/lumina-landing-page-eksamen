@@ -148,4 +148,6 @@ trustPilotData.forEach(function(data) {
     trustPilotContainer.innerHTML += trustPilotRectangle(data.imageSrc, data.starsSrc, data.review, data.author, data.speaker, data.purchased);
 });
 
-console.log(trustPilotContainer);
+trustPilotData.forEach(function(data) {
+    trustPilotContainer.innerHTML += trustPilotRectangle(data.imageSrc, data.starsSrc, data.review, data.author, data.speaker, data.purchased);
+});
