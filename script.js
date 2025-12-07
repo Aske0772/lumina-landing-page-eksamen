@@ -1,5 +1,8 @@
 "use strict";
 
+
+
+// SECTION 2 - HØJTALER FARVESKIFT
 // højtaler skifter billede og navn ved klik på knapper - knap skifter ikke stroke når der klikked udenfor knappen
 const productImage = document.getElementById('productImage');
 const productName = document.getElementById('productName');
@@ -36,3 +39,6 @@ document.querySelector('.sage-green-btn').addEventListener('click', function () 
 document.querySelector('.dusty-rose-btn').addEventListener('click', function () {
     btnColourChange('img/speakers/dusty-rose-transparent-true.png', 'Dusty Rose', this);
 });
+
+// SEKTION 3 - RUNDE BILLEDER HOVER SKIFT
+
