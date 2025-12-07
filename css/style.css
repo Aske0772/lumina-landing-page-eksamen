@@ -375,10 +375,6 @@ footer {
 .bg-rectangle-long {
     /* flexbox */
     display: flex;
-    /* placerer figure og figcaption i center af placeholder */
-    justify-content: center;
-    /* placerer btn's i center af placeholder */
-    align-items: center;
     /* alt sættes i kolonne */
     flex-direction: column;
     background-color: var(--rectangle-color);
@@ -386,10 +382,13 @@ footer {
     border-radius: 30px;
     width: 1143px;
     height: 518px;
-    padding: 10px;
+    padding: 32px 32px 32px 32px;
     /* placeholder i midten af skærm */
     margin: auto;
-    font-size: 1.5vw;
+    /* text */
+    text-align: center;
+    font-size: 1rem;
+    color: var(--secondary-color);
 }
 
 /* SECTION 1 */
@@ -478,13 +477,12 @@ footer {
 /* SECTION 3 - round image box */
 
 
-.round-image-figure img {
-    /* Fylder max sin container */
-    max-width: 17%;
+.round-image-container img {
+    max-width: 15%;
     /* Bevarer proportioner */
-    height: auto;
-    /* Hvis du vil have runde hjørner */
     border-radius: 50%;
+    border: 2px solid var(--secondary-color);
+    margin: 40px;
 }
 
 

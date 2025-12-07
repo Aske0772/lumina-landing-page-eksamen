@@ -41,4 +41,23 @@ document.querySelector('.dusty-rose-btn').addEventListener('click', function () 
 });
 
 // SEKTION 3 - RUNDE BILLEDER HOVER SKIFT
+// bruger replace i stedet for if/ else for at gøre koden mere simpel
+const circularGallery = document.querySelectorAll('.circular-gallery');
+
+circularGallery.forEach(function(img) {
+    const originalSrc = img.src;
+
+    img.addEventListener('mouseover', function() {
+        this.src = originalSrc.replace('.png', '-hover.png');
+    });
+
+    img.addEventListener('mouseout', function() {
+        this.src = originalSrc;
+    });
+
+    // klik funktion for mobil og tablets
+    img.addEventListener('click', function() {
+        this.src = originalSrc.replace('.png', '-hover.png');
+    });
+});
 
