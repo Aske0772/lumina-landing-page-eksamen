@@ -373,26 +373,7 @@ footer {
     z-index: 999;
 }
 
-.bg-rectangle-long {
-    /* flexbox */
-    display: flex;
-    /* alt sættes i kolonne */
-    flex-direction: column;
-    background-color: var(--rectangle-color);
-    /* placeholder stats */
-    border-radius: 30px;
-    width: 1143px;
-    height: 518px;
-    padding: 32px 32px 32px 32px;
-    /* placeholder i midten af skærm */
-    margin: 0 auto;
-    /* text */
-    text-align: center;
-    font-size: 1rem;
-    color: var(--secondary-color);
-    padding-left: 32px;
-    padding-right: 32px;
-}
+
 
 /* SECTION 1 */
 
@@ -479,13 +460,32 @@ footer {
 
 /* SECTION 3 - round image box */
 
+.bg-rectangle-long {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--rectangle-color);
+    border-radius: 30px;
+    width: 90%;  /* Responsive */
+    max-width: 1143px;  /* Max width */
+    min-height: 518px;  /* Min height, grows with content */
+    padding: 32px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    overflow: hidden;  /* Contains images */
+}
 
 .round-image-container img {
-    max-width: 15%;
+    max-width: 18%;
     /* Bevarer proportioner */
     border-radius: 50%;
     border: 2px solid var(--secondary-color);
-    margin: 16px;
+    margin: 32px;
+    width: 100%;
 }
+
+
+
 
 
