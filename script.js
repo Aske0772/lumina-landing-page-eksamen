@@ -68,21 +68,70 @@ const trustPilotContainer = document.querySelector('.bg-rectangle-section-trustp
 
 // backticks for at kunne lave flere strings på en gang
 // funktion til at lave trust pilot rectangles
-function trustPilotRectangle(imageSrc, starsSrc, review, author) {
+function trustPilotRectangle(imageSrc, starsSrc, review, author, speaker) {
     return `
     <article class="trust-pilot-rectangle">
         <img src="${imageSrc}" alt="Trustpilot Rating">
         <img src="${starsSrc}" alt="5 Stjerner truspilot rating">
         <h4>${review}</h4>
         <h5>${author}</h5>
+        <h6>${speaker}</h6>
     </article>
     `;
 }
 
 // indsætter rectangles i trust pilot container
-trustPilotContainer.innerHTML += trustPilotRectangle(
-    'img',
-    'img/trustpilot/5-stjerner.png',
-    'Helt ærligt. Fantastisk produkt til pengene. Købte den mest pga. af designet så blev faktisk overrasket af lydkvaliteten.',
-    'Louise P.'
-);
+const trustPilotData = [
+    {
+    imageSrc: 'img/selfie-women/selfie-woman-one.png',
+    starsSrc: 'img/trustpilot/5-stjerner.png',
+    review: 'Helt ærligt den bedste højtaler jeg nogensinde har ejet! Lyden er krystalklar og bassen er dyb og fyldig. Designet er også utroligt stilfuldt og passer perfekt ind i mit hjem.',
+    author: 'Anna K.',
+    speaker: ''
+
+    },
+
+ {
+    imageSrc: 'img/selfie-women/selfie-woman-one.png',
+    starsSrc: 'img/trustpilot/5-stjerner.png',
+    review: '',
+    author:'',
+    speaker: ''
+    },
+
+ {
+    imageSrc: 'img/selfie-women/selfie-woman-one.png',
+    starsSrc: 'img/trustpilot/5-stjerner.png',
+    review: '',
+    author:'',
+    speaker: ''
+
+    },
+
+ {
+    imageSrc: 'img/selfie-women/selfie-woman-one.png',
+    starsSrc: 'img/trustpilot/5-stjerner.png',
+    review: '',
+    author:'',
+    speaker: ''
+
+    },
+
+ {
+    imageSrc: 'img/selfie-women/selfie-woman-one.png',
+    starsSrc: 'img/trustpilot/5-stjerner.png',
+    review: '',
+    author:'',
+    speaker: ''
+
+    },
+
+ {
+    imageSrc: 'img/selfie-women/selfie-woman-one.png',
+    starsSrc: 'img/trustpilot/5-stjerner.png',
+    review: '',
+    author:'',
+    speaker: ''
+
+    },
+]
