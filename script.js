@@ -65,6 +65,9 @@ circularGallery.forEach(function(img) {
 
 // variabel til trust pilot container
 const trustPilotContainer = document.querySelector('.bg-rectangle-section-trustpilot');
+const duplicateTrustPilotContainer = document.querySelector(".duplicate-bg-rectangle-section-trustpilot")
+
+
 
 // backticks for at kunne lave flere strings på en gang
 // funktion til at lave trust pilot rectangles
@@ -149,5 +152,77 @@ trustPilotData.forEach(function(data) {
 });
 
 trustPilotData.forEach(function(data) {
-    trustPilotContainer.innerHTML += trustPilotRectangle(data.imageSrc, data.starsSrc, data.review, data.author, data.speaker, data.purchased);
+    duplicateTrustPilotContainer.innerHTML += trustPilotRectangle(data.imageSrc, data.starsSrc, data.review, data.author, data.speaker, data.purchased);
 });
+
+// SEKTION 5 - SPECIFIKATIONER
+const specificationSpeaker = document.querySelector('.bg-rectangle-section-trustpilot');
+const duplicateTrustPilotContainer = document.querySelector(".duplicate-bg-rectangle-section-trustpilot")
+
+
+
+// backticks for at kunne lave flere strings på en gang
+// funktion til at lave trust pilot rectangles
+
+const speakerSpecification = document.querySelector('.specification-sektion');
+
+function specificationSpeaker(titel, speakerSrc, text, specification) {
+    return `
+    <article class="specification-rectangle">
+        <p class="titel-specification${titel}">${titel}</p>
+        <img class="image-specification" src="${speakerSrc}" alt="billede af specifikation">
+        <p class="text-specification">${text}</p>
+        <p class="specification-specification">${specification}</p>
+    </article>
+    `;
+}
+
+const specificationData = [
+
+    {
+        titel: '18 timers batteritid',
+        speakerSrc: 'img',
+        text: '',
+        specification: ''
+    },
+
+        {
+        titel: '',
+        speakerSrc: '',
+        text: '',
+        specification: ''
+    },
+
+        {
+        titel: '',
+        speakerSrc: '',
+        text: '',
+        specification: ''
+    },
+
+        {
+        titel: '',
+        speakerSrc: '',
+        text: '',
+        specification: ''
+    },
+
+        {
+        titel: '',
+        speakerSrc: '',
+        text: '',
+        specification: ''
+    },
+
+        {
+        titel: '',
+        speakerSrc: '',
+        text: '',
+        specification: ''
+    },
+
+
+]
+
+
+        

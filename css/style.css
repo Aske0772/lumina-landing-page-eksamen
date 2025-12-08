@@ -412,6 +412,22 @@ footer {
 /* _________________________________________________ */
 
 /* SECTION 2 */
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+.h2-text {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+}
 /* Centrerer image i container med forskellige højtalerer */
 .product-image img {
     /* % brugt til bedre responsiv hjemmeside */
@@ -572,9 +588,8 @@ footer {
     min-width: 100%;
     align-items: center;
     overflow: hidden;
+    
 }
-
-
 
 .section-four article {
     display:flex;
@@ -582,25 +597,55 @@ footer {
     background-color: var(--rectangle-color);
     max-height: 400px;
     width: 300px;
-    margin: 32px;
+    margin: 12px;
     padding: 16px;;
     border-radius: 20px;
+    position: relative;
 }
+
+.row-div-trust-pilot {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+/* 2 animationer så reviews ikke forsvinder fra view */
 
 .bg-rectangle-section-trustpilot {
     display: flex;
     flex-direction: row;
-    animation: ArticleSectionScroll 30s linear infinite;
+    animation: ArticleSectionScrollOne 70s linear infinite;
 }
 
-@keyframes ArticleSectionScroll {
-0% {
-        transform: translateX(0);
+.duplicate-bg-rectangle-section-trustpilot {
+    display: flex;
+    flex-direction: row;
+    animation: ArticleSectionScrollTwo 70s linear infinite;
+}
+
+/* 2 keyframes så reviews ikke forsvinder fra view */
+
+@keyframes ArticleSectionScrollOne {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    
+    }
+
+}
+
+@keyframes ArticleSectionScrollTwo {
+    0% {
+        transform: translateX(-0%);
     }
 
     100% {
         transform: translateX(-50%);
     }
+
 }
 
 .trust-pilot-logo {
@@ -615,12 +660,14 @@ footer {
     /* display block for centering - inline kunne ikke center pga. tekst */
     display: block;
     margin: 0 auto;
+    border: 1px solid var(--secondary-color);
 }
 
 .stars-trustpilot {
     width: 100px;
     display: block;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .review-trustpilot {
@@ -633,6 +680,8 @@ footer {
     margin-top: 8px;
     color: grey;
 }
+
+
 
 
 
