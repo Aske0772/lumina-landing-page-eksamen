@@ -156,20 +156,19 @@ trustPilotData.forEach(function(data) {
 });
 
 // SEKTION 5 - SPECIFIKATIONER
-const specificationSpeaker = document.querySelector('.bg-rectangle-section-trustpilot');
-const duplicateTrustPilotContainer = document.querySelector(".duplicate-bg-rectangle-section-trustpilot")
+
 
 
 
 // backticks for at kunne lave flere strings på en gang
-// funktion til at lave trust pilot rectangles
+// funktion til at lave specification cards
 
 const speakerSpecification = document.querySelector('.specification-sektion');
 
 function specificationSpeaker(titel, speakerSrc, text, specification) {
     return `
     <article class="specification-rectangle">
-        <p class="titel-specification${titel}">${titel}</p>
+        <p class="titel-specification">${titel}</p>
         <img class="image-specification" src="${speakerSrc}" alt="billede af specifikation">
         <p class="text-specification">${text}</p>
         <p class="specification-specification">${specification}</p>
@@ -181,48 +180,52 @@ const specificationData = [
 
     {
         titel: '18 timers batteritid',
-        speakerSrc: 'img',
-        text: '',
-        specification: ''
+        speakerSrc: 'img/speakers/speaker-weavy-static-images/battery.png',
+        text: 'Den holder længere end de fleste',
+        specification: '11000 mAh batteri'
     },
 
         {
-        titel: '',
-        speakerSrc: '',
-        text: '',
-        specification: ''
+        titel: 'Vandtæt',
+        speakerSrc: 'img/speakers/speaker-weavy-static-images/rainproof.png',
+        text: 'Den tåler din hverdag',
+        specification: 'Hydrofobisk vandafvisende lag'
     },
 
         {
-        titel: '',
-        speakerSrc: '',
-        text: '',
-        specification: ''
+        titel: '100dB lydstyrke',
+        speakerSrc: 'img/speakers/speaker-weavy-static-images/soundwave.png',
+        text: 'Den er ikke genert',
+        specification: '100dB Dyb bas og klar diskant'
     },
 
         {
-        titel: '',
-        speakerSrc: '',
-        text: '',
-        specification: ''
+        titel: 'Bluetooth',
+        speakerSrc: 'img/speakers/speaker-weavy-static-images/bluetooth.png',
+        text: 'Forbinder uden drama',
+        specification: 'Bluetooth 5.3 Stabil forbindelse op til 10 meter'
     },
 
         {
-        titel: '',
-        speakerSrc: '',
-        text: '',
-        specification: ''
+        titel: 'Subtile LED lys',
+        speakerSrc: 'img/speakers/speaker-weavy-static-images/led-lighting.png',
+        text: 'Lys der forstår stemning',
+        specification: 'lys der tilpasser sig musikken'
     },
 
         {
-        titel: '',
-        speakerSrc: '',
-        text: '',
-        specification: ''
+        titel: 'Social connect',
+        speakerSrc: 'img/speakers/speaker-weavy-static-images/social-connect.png',
+        text: 'Alle har en sang',
+        specification: 'App fra Lumina Audio'
     },
 
+];
 
-]
+specificationData.forEach(function(data) {
+    speakerSpecification.innerHTML += specificationSpeaker(data.titel, data.speakerSrc, data.text, data.specification);
+});
 
+console.log('Script loaded successfully');
 
         

@@ -681,9 +681,60 @@ h2 {
     color: grey;
 }
 
+/* section 5 */
 
+.section-five article {
+    display: flex;
+        flex-direction: column;
+        background-color: var(--rectangle-color);
+        max-height: 400px;
+        width: 300px;
+        margin: 12px;
+        padding: 16px;
+        ;
+        border-radius: 20px;
+        position: relative;
+}
 
+.specification-sektion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.speaker-rectangle {
+    width: 200px;
+    height: 400px;
+    border: 20px;
+}
+
+.image-specification {
+    width: 100px;
+    border-radius: 50%;
+    /* display block for centering - inline kunne ikke center pga. tekst */
+    display: block;
+    margin: 0 auto;
+    border: 1px solid var(--secondary-color);
+}
+
+.titel-specification {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.text-specification {
+    width: 100px;
+
+    padding: 1rem;
+}
+
+.specification-specification {
+    width: 100%;
+    padding: 1rem;
+
+}
 
 
 
