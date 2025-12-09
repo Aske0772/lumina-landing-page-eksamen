@@ -380,6 +380,12 @@ footer {
     margin: 50px auto;
 }
 
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bg-rectangle-small {
     /* flexbox */
     display: flex;
@@ -392,15 +398,14 @@ footer {
     background-color: var(--rectangle-color);
     /* placeholder stats */
     border-radius: 30px;
-    width: 622px;
-    height: 739px;
+    width: 30vw;
+    height: auto;
     padding: 10px;
     /* placeholder i midten af skærm */
     margin: auto;
     font-size: 3rem;
     z-index: 999;
 }
-
 
 
 /* SECTION 1 */
