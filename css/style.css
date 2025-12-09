@@ -27,10 +27,16 @@
     box-sizing: border-box;
 }
 
+data {
+    display: block;
+}
+
 h2, h3, h4, h5, h6 {
     font-family: var(--font-family-playfair);
     color: var(--secondary-color);
 }
+
+
 
 /* Body content */
 body {
@@ -38,8 +44,6 @@ body {
     font-family: var(--font-family-oswald);
     overflow-x: hidden;
 }
-
-
 
 /* _________________________________________________________________________ */
 
@@ -139,6 +143,7 @@ nav {
     font-weight: bold;
     font-family: var(--font-family-playfair);
 }
+
 
 /* Lumina 1 heading */
 /* LUMINA HEADING hero sektion */
