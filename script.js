@@ -22,7 +22,7 @@ function btnColourChange(image, name, clickedButton) {
 }
 
 
-// når man trykker på knapperne tager bruger den funktion som siger at den skal ændre src, text content, og button style
+// når man trykker på knapperne bruger den funktion som siger at den skal ændre src, text content, og button style
 // this er tilføjet for at kunne referere til den knap der blev klikket på
 document.querySelector('.misty-white-btn').addEventListener('click', function () {
     btnColourChange('img/speakers/misty-white-transparent.png', 'Misty White', this);
@@ -65,11 +65,12 @@ circularGallery.forEach(function(img) {
 
 // variabel til trust pilot container
 const trustPilotContainer = document.querySelector('.bg-rectangle-section-trustpilot');
+// duplikat for at kunne lave 
 const duplicateTrustPilotContainer = document.querySelector(".duplicate-bg-rectangle-section-trustpilot")
 
 
 
-// backticks for at kunne lave flere strings på en gang
+// template literal backticks for at kunne lave flere strings på en gang
 // funktion til at lave trust pilot rectangles
 function trustPilotRectangle(imageSrc, starsSrc, review, author, speaker, purchased) {
     return `
