@@ -4,7 +4,8 @@
 ## Hero section
 1. hero flyttet fra nav
 2. Billeder lavet om til buttons
-3. tal lavet om til data
+3. tal lavet om til data¨
+4. optimeret struktur.
 
 ## Navigationsbar
 1. checkbox med input hamburger lavet i css med span i stedet for billede.
@@ -20,6 +21,7 @@
 2. overflowX brugt i html i stedet for body.
 3. hero video gjort mere resonsiv (auto height)
 4. overskrifter hidden visuelt
+5. optimereret struktur
 
 
 # JavaScript
