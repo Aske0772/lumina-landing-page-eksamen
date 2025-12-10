@@ -2,10 +2,9 @@
 
 # index.html
 ## Hero section
-1. Flyttet Hero video og tekst fra navbar til sin egen section class "hero"
-2. Nav var parent og gjorde at video ikke kunne blive fuld størrelse.
-3. Billeder lavet om til buttons
-4. tal lavet om til data
+1. hero flyttet fra nav
+2. Billeder lavet om til buttons
+3. tal lavet om til data
 
 ## Navigationsbar
 1. checkbox med input hamburger lavet i css med span i stedet for billede.
@@ -17,8 +16,10 @@
 3. 
 
 # CSS
-1. data lavet om til block elemter
-2. body overflowX brugt i html
+1. data lavet om til block elementer
+2. overflowX brugt i html i stedet for body.
+3. hero video gjort mere resonsiv (auto height)
+4. overskrifter hidden visuelt
 
 
 # JavaScript
