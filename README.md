@@ -26,6 +26,7 @@
 
 # JavaScript
 
-1. brugt funktion der tager fat i src, textcontent og selve knappen til at ændre "figure" og "figcaption" og "button" inde i rektangle placeholder.
-2. 
-3.
+1. forEach med eventListener - mouseover, mouseout, click (replace image)
+brugt funktion der tager fat i src, textcontent og selve knappen til at ændre "figure" og "figcaption" og "button" inde i rektangle placeholder.
+2. Arrays og funktioner tilføjet
+3. 
